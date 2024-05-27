@@ -18,6 +18,7 @@ fun Text12spBold(text: String, color: Color = TheAppTheme.colors.primaryText) {
     )
 }
 
+
 @Composable
 fun Text14spBold(text: String, color: Color = TheAppTheme.colors.primaryText) {
     Text(
