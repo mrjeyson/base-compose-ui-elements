@@ -78,7 +78,6 @@ fun SearchTextField(
     }
 }
 
-
 @Composable
 fun SearchTextFieldRounded(
     valueChange: (String) -> Unit
