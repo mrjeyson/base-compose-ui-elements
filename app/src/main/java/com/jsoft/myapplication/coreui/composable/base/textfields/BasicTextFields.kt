@@ -77,7 +77,6 @@ fun SearchTextField(
         if (defMarginBottom) Spacer10dp()
     }
 }
-
 @Composable
 fun SearchTextFieldRounded(
     valueChange: (String) -> Unit
@@ -94,6 +93,8 @@ fun SearchTextFieldRounded(
                 clip = true
             }
     ) {
+
+
         Row(
             Modifier
                 .background(TheAppTheme.colors.secondaryButtonBackground)
