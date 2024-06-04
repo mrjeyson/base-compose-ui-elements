@@ -84,6 +84,7 @@ fun SearchTextFieldRounded(
     val textState = remember {
         mutableStateOf("")
     }
+
     Card(
         modifier = Modifier
             .fillMaxWidth()
