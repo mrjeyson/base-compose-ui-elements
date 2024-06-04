@@ -93,8 +93,6 @@ fun SearchTextFieldRounded(
                 clip = true
             }
     ) {
-
-
         Row(
             Modifier
                 .background(TheAppTheme.colors.secondaryButtonBackground)
