@@ -35,6 +35,7 @@ import com.jsoft.myapplication.coreui.theme.TheAppTheme
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun SearchTextField(
+
     textState: MutableState<String>,
     hintText: String = stringResource(R.string._search),
     @DrawableRes iconId: Int = R.drawable.ic_search,
