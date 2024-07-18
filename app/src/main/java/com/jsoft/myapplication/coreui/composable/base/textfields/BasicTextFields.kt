@@ -32,7 +32,6 @@ import com.jsoft.myapplication.coreui.composable.base.Spacer10dp
 import com.jsoft.myapplication.coreui.composable.base.texts.Text16spSecondary
 import com.jsoft.myapplication.coreui.theme.TheAppTheme
 
-
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun SearchTextField(
