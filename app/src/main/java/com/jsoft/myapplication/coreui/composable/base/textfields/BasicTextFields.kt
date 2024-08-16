@@ -42,8 +42,6 @@ fun SearchTextField(
     defMarginBottom: Boolean = false,
     textChanged: (String) -> Unit
 ) {
-
-
     Column {
         if (defMarginTop) Spacer10dp()
         TextField(
